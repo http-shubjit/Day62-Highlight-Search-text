@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Sidebar Example</title>
+<style>
+    /* Basic styling for the sidebar */
+    .sidebar {
+        height: 100%; /* Full-height */
+        width: 250px; /* Set the width of the sidebar */
+        position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+        top: 0;
+        left: 0;
+        background-color: #111; /* Black */
+        overflow-x: hidden; /* Disable horizontal scroll */
+        padding-top: 20px;
+    }
+
+    /* Style links inside the sidebar */
+    .sidebar a {
+        padding: 10px 15px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+    }
+
+    /* Change color on hover */
+    .sidebar a:hover {
+        color: #f1f1f1;
+    }
+
+    /* Style the main content */
+    .main-content {
+        margin-left: 260px; /* Same width as the sidebar */
+        padding: 0px 10px;
+    }
+
+    /* Add a background color to the main content (optional) */
+    .main-content {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<!-- Sidebar -->
+<div class="sidebar">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+</div>
+
+<!-- Main content -->
+<div class="main-content">
+    <h1>Welcome to My Website</h1>
+    <p>This is the main content area. You can add your content here.</p>
+</div>
+
+</body>
+</html>
